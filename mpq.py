@@ -10,4 +10,6 @@ while True:
 
     if buy_button and "displaynone" not in buy_button.get("class", []):
         print("BUY NOW!")
+    else:
+        print("품절입")
     time.sleep(1)
